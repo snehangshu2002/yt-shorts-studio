@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# never commit renders or downloads
+*.mp4
+*.mkv
+*.webm
+*.wav
+*-workspace/

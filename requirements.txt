@@ -1,0 +1,6 @@
+yt-dlp>=2025.1.1
+numpy>=1.23
+opencv-python>=4.8
+Pillow>=10.0
+# optional: transcript fallback for videos without captions
+# faster-whisper>=1.0

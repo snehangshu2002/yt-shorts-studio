@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: podcast-best-clip-preview
+expected_outcome: |
+  A candidate list for the podcast, then one 30-60 s vertical 1080x1920 preview of the top
+  moment with word-by-word captions, framing that keeps the speaker(s) fully in frame, a
+  designed 1080x1920 cover with hook text, and a title/description/hashtags written to match
+  what is actually said in the clip. Only the chosen segment is downloaded.
