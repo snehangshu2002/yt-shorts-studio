@@ -1,0 +1,10 @@
+{
+  "name": "yt-shorts-studio",
+  "version": "1.0.0",
+  "description": "Turn any YouTube video into captioned, reframed vertical Shorts/Reels: moment finding, segment-only downloads, face tracking and split layouts, word-by-word captions, FilmCraft or ffmpeg editing, thumbnails and publishing copy.",
+  "author": { "name": "snehangshu2002" },
+  "homepage": "https://github.com/snehangshu2002/yt-shorts-studio",
+  "repository": "https://github.com/snehangshu2002/yt-shorts-studio",
+  "license": "MIT",
+  "keywords": ["youtube", "shorts", "reels", "tiktok", "captions", "video-editing", "ffmpeg", "filmcraft", "clips"]
+}

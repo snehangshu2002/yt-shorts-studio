@@ -79,6 +79,25 @@ Everything runs locally with yt-dlp, ffmpeg and OpenCV. There are no per-minute 
 
 ## 📦 Install
 
+### Claude Code plugin (recommended)
+
+This repo is also a Claude Code **plugin marketplace** (`snehangshu-skills`). In Claude Code, run:
+
+```text
+/plugin install yt-shorts-studio --marketplace snehangshu2002/yt-shorts-studio
+```
+
+On Claude Code older than 2.1.275, do it in two steps:
+
+```text
+/plugin marketplace add snehangshu2002/yt-shorts-studio
+/plugin install yt-shorts-studio@snehangshu-skills
+```
+
+The repository is private, so installing needs git access to it (the account you're signed in to with `gh` or git). Updates come through `/plugin marketplace update snehangshu-skills`. You still need the Python requirements below.
+
+### Any agent (Claude Code, Codex, Antigravity…)
+
 The skill uses the open **Agent Skills** format: a folder with a `SKILL.md` plus scripts. The installer copies it to every agent it finds on your machine.
 
 ```bash
@@ -170,6 +189,7 @@ skills/yt-shorts-studio/
 │   ├── thumbnail.py            designed covers / thumbnails
 │   └── fc.py                   FilmCraft bridge helper
 └── evals/                      test prompts + graders
+.claude-plugin/                 plugin.json + marketplace.json (Claude Code marketplace)
 AGENTS.md / GEMINI.md           instructions for agents without a skill system
 install.sh / install.ps1        installers
 ```
